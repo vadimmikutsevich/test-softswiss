@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-softswiss/static/css/main.eaa38600.css",
+    "main.js": "/test-softswiss/static/js/main.c4d30121.js",
+    "static/media/intro-space.jpg": "/test-softswiss/static/media/intro-space.50c6137d00db9f5414b2.jpg",
+    "static/media/earth.svg": "/test-softswiss/static/media/earth.4ee393712c25f637d56b.svg",
+    "static/media/rocket.svg": "/test-softswiss/static/media/rocket.bf2dbb7c0c33ada062ba83af3725edbe.svg",
+    "static/media/stars_dream_space.svg": "/test-softswiss/static/media/stars_dream_space.d4ec0c9a3dd19a97a3d892aac8a9e0b9.svg",
+    "static/media/fantastic_dreams_space.svg": "/test-softswiss/static/media/fantastic_dreams_space.b7626d7f869c2ce2611654fc0bdbfc85.svg",
+    "static/media/reality_borders_space.svg": "/test-softswiss/static/media/reality_borders_space.9e6cf77c96b5cddc68bfa6b62a723aed.svg",
+    "static/media/is_not_just_space.svg": "/test-softswiss/static/media/is_not_just_space.e6848b0fb5c37fdd9b474abd0b856260.svg",
+    "static/media/logo.svg": "/test-softswiss/static/media/logo.f4153131d3955bdfa609912a9f3b5caf.svg",
+    "static/media/cart.svg": "/test-softswiss/static/media/cart.cd3bdfd5aacf12e5a0b7334c0571d98d.svg",
+    "index.html": "/test-softswiss/index.html",
+    "main.eaa38600.css.map": "/test-softswiss/static/css/main.eaa38600.css.map",
+    "main.c4d30121.js.map": "/test-softswiss/static/js/main.c4d30121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa38600.css",
+    "static/js/main.c4d30121.js"
+  ]
+}
