@@ -74,11 +74,11 @@
 @media (max-width: 576px) {
   .banner {
     background: url("../assets/images/earth.svg") no-repeat center
-        calc(0% - 130px),
+        calc(0% - 100px),
       $dark-gradient,
       url("../assets/images/intro-space.jpg") no-repeat center/cover;
 
-    height: calc(100vh - 48px);
+    height: 100vh;
 
     &__content {
       text-align: center;
