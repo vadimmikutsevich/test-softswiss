@@ -1,0 +1,105 @@
+.offer-card {
+  background: $dark-gradient, var(--bg-image) no-repeat center / cover;
+  color: $color-white;
+  border-radius: 10px;
+  padding: 35px 35px;
+
+  &__content {
+    max-width: 100%;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 46px;
+    max-width: 250px;
+  }
+
+  &__subtitle {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 22px;
+  }
+
+  &__button {
+    padding: 14px 0;
+    min-width: 191px;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 26.4px;
+    font-weight: 700;
+  }
+
+  &--wide {
+    .offer-card__content {
+      max-width: 634px;
+    }
+
+    .offer-card__title {
+      font-weight: 800;
+      font-size: 74px;
+      line-height: 74px;
+      max-width: 100%;
+    }
+
+    .offer-card__subtitle {
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 31.2px;
+      margin-top: 22px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .offer-card {
+    display: flex;
+    align-items: end;
+    padding: 28px 27px;
+
+    &__title {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    &__subtitle {
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 19.2px;
+      margin-top: 22px;
+    }
+
+    &__button {
+      padding: 7px 0;
+      min-width: 161px;
+      margin-top: 22px;
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+
+    &--wide {
+      .offer-card__title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+      .offer-card__subtitle {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19.2px;
+        margin-top: 22px;
+      }
+
+      .offer-card__button {
+        padding: 7px 0;
+        min-width: 161px;
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 19.2px;
+      }
+    }
+  }
+}

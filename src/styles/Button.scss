@@ -1,0 +1,33 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 999px;
+  padding: 7px 0;
+  min-width: 162px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &--default {
+    background-color: $color-lime;
+
+    &:hover {
+      opacity: 60%;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: 2px solid $color-lime;
+    color: $color-lime;
+
+    &:hover {
+      opacity: 60%;
+    }
+  }
+}

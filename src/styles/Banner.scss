@@ -1,0 +1,83 @@
+.banner {
+  background: url("../assets/images/earth.svg") no-repeat calc(100% - 50px)
+      center,
+    $dark-gradient,
+    url("../assets/images/intro-space.jpg") no-repeat center/cover;
+  height: calc(100vh - 80px);
+
+  &__content {
+    max-width: 694px;
+  }
+
+  &__heading {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    color: $color-white;
+
+    & span {
+      color: $color-pink;
+    }
+  }
+
+  &__sub-heading {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: $color-white;
+    margin-top: 22px;
+
+    & span {
+      color: $color-lime;
+    }
+  }
+
+  &__button {
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 26.4px;
+    min-width: 191px;
+    padding: 14px 0;
+    font-weight: 700;
+  }
+}
+
+.banner .wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    background: url("../assets/images/earth.svg") no-repeat calc(100% + 120px)
+        center,
+      $dark-gradient,
+      url("../assets/images/intro-space.jpg") no-repeat center/cover;
+
+    &__content {
+      max-width: 411px;
+    }
+
+    &__heading {
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    &__sub-heading {
+      font-size: 22px;
+      line-height: 26.4px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    background: url("../assets/images/earth.svg") no-repeat center
+        calc(0% - 130px),
+      $dark-gradient,
+      url("../assets/images/intro-space.jpg") no-repeat center/cover;
+
+    height: calc(100vh - 48px);
+  }
+}

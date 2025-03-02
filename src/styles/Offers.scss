@@ -1,0 +1,77 @@
+.offers {
+  padding-top: 58px;
+  background: $color-navy;
+
+  &__heading {
+    color: $color-white;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  &__grid {
+    margin-top: 40px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "card1 card1"
+      "card2 card3"
+      "card4 card4";
+  }
+  &__item1 {
+    grid-area: card1;
+  }
+  &__item2 {
+    grid-area: card2;
+  }
+  &__item3 {
+    grid-area: card3;
+  }
+  &__item4 {
+    grid-area: card4;
+  }
+}
+
+@media (max-width: 1024px) {
+  .offers {
+    padding-top: 55px;
+
+    &__heading {
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+
+    &__grid {
+      margin-top: 30px;
+      grid-gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "card1 card2"
+        "card3 card4";
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .offers {
+    padding-top: 50px;
+
+    &__heading {
+      font-size: 18px;
+      line-height: 21.6px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
+  }
+}

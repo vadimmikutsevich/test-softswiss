@@ -1,0 +1,18 @@
+.footer {
+  background: $color-black;
+  height: 127px;
+
+  & p {
+    color: $color-lime;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+}
+
+.footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

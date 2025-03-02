@@ -1,0 +1,27 @@
+@import "./styles/fonts";
+@import "./styles/reset";
+@import "./styles/variables";
+@import "./styles//mixins";
+
+@import "./styles/Button.scss";
+@import "./styles/OfferCard.scss";
+
+@import "./styles/Header.scss";
+@import "./styles/Banner.scss";
+@import "./styles/Offers.scss";
+@import "./styles/Info.scss";
+@import "./styles/Footer.scss";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  @include min-max(320px, 100%);
+}
+
+.wrapper {
+  @include min-max(320px, 1110px);
+  padding-left: clamp(20px, 30px, 32px);
+  padding-right: clamp(20px, 30px, 32px);
+}
