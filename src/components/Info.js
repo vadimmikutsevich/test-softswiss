@@ -3,6 +3,9 @@ const Info = () => {
     <section className="info">
       <div className="wrapper">
         <h4 className="info__heading">Embark on a space journey</h4>
+
+        <input type="checkbox" id="expand-toggle" className="info__checkbox" />
+
         <p className="info__description">
           Travelling into space is one of the most exciting and unforgettable
           adventures that can change your life forever. And if you have ever
@@ -16,7 +19,7 @@ const Info = () => {
           options for space excursions.
         </p>
 
-        <button className="info__button">Read more</button>
+        <label htmlFor="expand-toggle" className="info__button"></label>
       </div>
     </section>
   );
