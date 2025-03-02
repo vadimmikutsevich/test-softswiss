@@ -1,5 +1,5 @@
 .banner {
-  background: url("../assets/images/earth.svg") no-repeat calc(100% - 50px)
+  background: url("../assets/images/earth.svg") no-repeat calc(100% - 40px)
       center,
     $dark-gradient,
     url("../assets/images/intro-space.jpg") no-repeat center/cover;
@@ -79,5 +79,25 @@
       url("../assets/images/intro-space.jpg") no-repeat center/cover;
 
     height: calc(100vh - 48px);
+
+    &__content {
+      text-align: center;
+    }
+
+    &__button {
+      margin-top: 17px;
+      font-size: 16px;
+      line-height: 19.2px;
+      min-width: 161px;
+      padding: 7px 0;
+      font-weight: 700;
+    }
+  }
+
+  .banner .wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 44px;
   }
 }

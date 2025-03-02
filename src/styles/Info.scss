@@ -19,7 +19,8 @@
 
   &__button {
     margin-top: 17px;
-    padding-bottom: 60px;
+    padding-left: 0;
+    margin-bottom: 60px;
     display: inline-flex;
     color: $color-lime;
     border: none;
@@ -53,7 +54,7 @@
 
     &__button {
       margin-top: 20px;
-      padding-bottom: 53px;
+      margin-bottom: 60px;
       font-size: 16px;
       font-weight: 19.2px;
     }
@@ -77,7 +78,7 @@
 
     &__button {
       margin-top: 20px;
-      padding-bottom: 50px;
+      margin-bottom: 50px;
       font-size: 14px;
       font-weight: 16.8px;
     }
