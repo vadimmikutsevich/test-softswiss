@@ -1,42 +1,29 @@
 # 🚀 Frontend Test Task
 
-## 📌 Описание проекта
+## 📌 Project Description
 
-Этот проект представляет собой одностраничное приложение (SPA), разработанное в рамках тестового задания. В проекте реализована адаптивная вёрстка, интерактивные элементы и бургер-меню с использованием React и SCSS.
+This project is a single-page application (SPA) developed as part of a frontend test assignment.  
+It features responsive layout, interactive UI elements, and a burger menu built using **React** and **SCSS**.
+
+✅ The app is deployed via **GitHub Pages** and can be viewed here:  
+👉 [https://vadimmikutsevich.github.io/test-softswiss/](https://vadimmikutsevich.github.io/test-softswiss/)
 
 ---
 
-## 🔧 Используемые технологии
+## 🔧 Technologies Used
 
 - **React** (Create React App)
 - **SCSS (SASS)**
-- **Flexbox / Grid**
+- **Flexbox / Grid Layout**
 
 ---
 
-## 🛠 Установка и запуск проекта
+## 🛠 Getting Started
 
-📌 Установка зависимостей
+### 📦 Install dependencies
 
-```
+```bash
 npm install
-```
 
-📌 Запуск проекта в режиме разработки
-
-```
 npm run start
-```
-
-### 📌 Требования
-
-- **Node.js**: `v21.6.1`
-- **npm**: `10.9.0`
-
-### 📌 Клонирование репозитория
-
-```sh
-git clone https://github.com/vadimmikutsevich/test-softswiss.git
-cd your-repo-name
-
 ```
