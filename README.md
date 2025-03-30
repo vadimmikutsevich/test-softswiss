@@ -20,7 +20,7 @@ It features responsive layout, interactive UI elements, and a burger menu built 
 
 ## 🛠 Getting Started
 
-### 📦 Install dependencies
+### 📦 Install dependencies and run dev server
 
 ```bash
 npm install
